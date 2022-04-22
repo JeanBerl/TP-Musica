@@ -1,4 +1,4 @@
 namespace aula;
-public interface Instrumento {
-    void tocarMusica(Musica musica);
+public abstract class Instrumento {
+    public abstract void tocarMusica(Musica musica);
 }
